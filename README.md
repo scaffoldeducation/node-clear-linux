@@ -27,7 +27,7 @@ services:
         image: docker.pkg.github.com/kiwfy/node-clear-linux/node-clear-linux:latest
         container_name: node
         volumes:
-            - ./:/usr/src/app/
+            - ./:/usr/src/
 ```
 
 ### Development
